@@ -5,6 +5,6 @@ class Song
     []
   end
 
-  def self.verse(number_of_beers:)
+  def self.verse(number_of_juices:)
   end
 end
