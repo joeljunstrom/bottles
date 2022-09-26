@@ -7,7 +7,7 @@ RSpec.describe Song do
   describe ".verse" do
     it "returns the verse for 95 juices" do
       expected_verse =
-        "95 bottles of juice on the wall, 95 bottles of juice." +
+        "95 bottles of juice on the wall, 95 bottles of juice.\n" +
         "take one down and pass it around, 94 bottles of juice on the wall."
 
       expect(Song.verse(number_of_juices: 95)).to eq(expected_verse)
